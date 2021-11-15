@@ -1,6 +1,6 @@
 {
-  "name": "@deepgram/sdk",
-  "version": "1.1.0",
+  "name": "@kea-inc/deepgram-sdk-wss-fix",
+  "version": "0.0.1",
   "description": "An SDK for the Deepgram automated speech recognition platform",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kea-inc/node-sdk.git"
+    "url": "git+https://github.com/kea-inc/deepgram-node-sdk.git"
   },
   "keywords": [
     "deepgram",
@@ -21,15 +21,12 @@
     "speech",
     "sdk"
   ],
-  "author": {
-    "name": "Michael Jolley",
-    "email": "michael.jolley@deepgram.com"
-  },
+  "author": "Michael Jolley <michael.jolley@deepgram.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kea-inc/node-sdk/issues"
+    "url": "https://github.com/kea-inc/deepgram-node-sdk/issues"
   },
-  "homepage": "https://github.com/kea-inc/node-sdk#readme",
+  "homepage": "https://github.com/kea-inc/deepgram-node-sdk#readme",
   "devDependencies": {
     "@types/chai": "^4.2.22",
     "@types/mocha": "^9.0.0",
@@ -53,5 +50,8 @@
   },
   "dependencies": {
     "ws": "^7.5.5"
+  },
+  "directories": {
+    "test": "tests"
   }
 }
